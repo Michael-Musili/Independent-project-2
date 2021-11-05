@@ -1,19 +1,19 @@
-# {Michael Musili}
-#### {Restrant Website}, {5/11/2021}
-#### List of contributors...{The project was written by Michael Musili}
+# MORINGA RESTRAURANT
+#### List of contributors
+The project was written by Michael Musili
 ## Description
-{The webpage,the landing page of Moringa Restrant is of many youths fast food at cheap pricess.We aim at aiding young college students to afford quality food at fair pricces}
+The webpage,the landing page of Moringa Restrant is of many youths fast food at cheap pricess.We aim at aiding young college students to afford quality food at fair pricess.
 ## Setup/Installation Requirements
 * To view the website click
 *  http://github.com/Michael-Musili/Independent-project-2.git
 ## Known Bugs
-{There are no known bugs }
+There are no known bugs
 ## Technologies Used
-{1.HTML 
-2.CSS}
+1.HTML 
+2.CSS
 ## Support and contact details
-{For any inqueries please reach out to me on 0791234820 or through my email address michael.musili@student.moringaschool.com
-}
+For any inqueries please reach out to me on 0791234820 or through my email address michael.musili@student.moringaschool.com
+
 ### License
 Copyright (c) [2021] [Michael Musili]
 
