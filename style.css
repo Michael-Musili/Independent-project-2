@@ -77,12 +77,40 @@ ul{
 .card p{
     text-align: left;
 } 
-.row{
-    display: flex
+
+.Reviews h5{
+    font-size: 40px;
+    text-align: right;
 }
+.Reviews h6{
+    font-size: 20px;
+    text-align: right;
+}
+.Reviews p{
+    font size: 20px;
+    text-align: right;
+}
+.menu{
+    text-align: center;
+}
+.menu h7{
+    font-size: 40px;
+}
+.menu p{
+    font-size: 20px;
 
 }
-.card header h2{
-    text-align: left;
+.detail_sub ,h8,h9,h10,h11{
+    font-size: 30px;
 }
-
+.details p{
+    font-size: 20px;
+}
+.price p{
+    font-size: 16px;
+}
+.footer h13{ font-size: 20px;
+}
+.footer p{
+    font-size: 25;
+}
