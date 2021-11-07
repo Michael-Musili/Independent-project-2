@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    font-family:  sans-serif;
+}
+main{
+    width: 100%;
+    background: linear-gradient;
+}
+.box {
+    width: 900px;
+    float: right;
+    border: 1px solid black;
+}
+.box ul li {
+    width: 120px;
+    float: left;
+    margin: 10px auto;
+    text-align: center;
+}
+.box ul li a{
+    text-decoration: none;
+    color: black;
+    te
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+}
+ul{
+    list-style-type: none;
+}
+.box ul li:hover{
+    background-color: blue;
+}
+.box ul li a:hover{
+    color: white;
+}
+
+.logo{
+    font-weight: bolder;
+    font-size: 2.0rem;
+    color: black;
+
+}
+
+.text-box{
+    width: 80%;
+    color: black;
+    top: 50%;
+    padding: 55px;
+}
+.services h3{
+    font-size: 40px;
+}
+.services h4{
+    font-size: 30px;
+}
+.services p{
+    font-size: 20px;
+}
+.btn{
+    color: Black;
+    font-size: 1.7rem;
+    position: relative;
+    border-radius: 5rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+    padding: 8rem 3rem;
+    
+}
+.services h3{
+    text-align: center;
+}
+.services p{
+    text-align: center;
+}
+.card p{
+    text-align: left;
+} 
+.row{
+    display: flex
+}
+
+}
+.card header h2{
+    text-align: left;
+}
+
