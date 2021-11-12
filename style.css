@@ -1,15 +1,11 @@
-*{
-    margin: 0;
-    font-family:  sans-serif;
-}
-main{
-    width: 100%;
-    background: linear-gradient;
-}
 .box {
     width: 900px;
     float: right;
     border: 1px solid black;
+    position: relative; 
+    left: 80px;
+    top: 2px;
+
 }
 .box ul li {
     width: 120px;
@@ -17,14 +13,19 @@ main{
     margin: 10px auto;
     text-align: center;
 }
+
 .box ul li a{
     text-decoration: none;
-    color: black;
-    te
+    color: white;
+    
 }
-.header{
-    min-height: 100vh;
-    width: 100%;
+#container{
+    background-image: url(image2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    
+
 }
 ul{
     list-style-type: none;
@@ -38,14 +39,14 @@ ul{
 
 .logo{
     font-weight: bolder;
-    font-size: 2.0rem;
-    color: black;
+    font-size: 1.5rem;
+    color: orange;
 
 }
 
 .text-box{
     width: 80%;
-    color: black;
+    color: white;
     top: 50%;
     padding: 55px;
 }
@@ -68,40 +69,98 @@ ul{
     padding: 8rem 3rem;
     
 }
+.Services{
+    background-color: rgb(229,229,229);
+    height: 400px;
+}
 .services h3{
     text-align: center;
 }
 .services p{
     text-align: center;
 }
-.card p{
-    text-align: left;
+.card {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding-top: 5px;
+    justify-content: space-evenly;
+
 } 
+
+
+.Reviews{
+    background-image: url(image1.png);
+    background-size:50% 100% ;
+    background-repeat: no-repeat;
+}
+.Reviews{
+    background-color: black;
+    height: 400px;
+    
+}
 
 .Reviews h5{
     font-size: 40px;
     text-align: right;
+    color: white;
+    margin: 30px;
+    
 }
 .Reviews h6{
     font-size: 20px;
     text-align: right;
+    color: white;
+    margin: 30px;
 }
 .Reviews p{
-    font size: 20px;
+    font-size: 20px;
     text-align: right;
+    color: white;
+    margin: 30px;
+
 }
 .menu{
+    background-color: rgb(229,229,229);
+    background-size: cover;
     text-align: center;
+
+}
+.foodA{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding-top: 20px;
+    float: right;
+    background-color: rgb(229,229,229);
+    background-size: 30px;
+
+
+}
+.foodA .details{
+    float: right;
+}
+.foodB .details{
+    float: right;
+
+}
+.foodB{
+    background-color: rgb(229,229,229);
+    background-size: 80px;
 }
 .menu h7{
     font-size: 40px;
 }
+h8{
+    font-size: 30px;
+}
+h9{
+    font-size: 20px;
+    color: orange;
+}
+
 .menu p{
     font-size: 20px;
-
-}
-.detail_sub ,h8,h9,h10,h11{
-    font-size: 30px;
 }
 .details p{
     font-size: 20px;
@@ -109,8 +168,35 @@ ul{
 .price p{
     font-size: 16px;
 }
+.food{
+    display: flex;
+    justify-content: space-evenly;
+}
 .footer h13{ font-size: 20px;
 }
+.footer{
+    background-image: url(image8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    text-align: center;
+    
+}
+.footer h1{
+    text-align: center;
+    color: white;
+    font-size: medium;
+    padding: 10px;
+    padding-bottom: 10px;
+}
 .footer p{
-    font-size: 25;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+}
+button{
+    text-align: center;
+    color: white;
+    border-color: white;
 }
