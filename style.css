@@ -1,17 +1,17 @@
 .box {
-    width: 900px;
+    width: 800px;
     float: right;
-    border: 1px solid black;
+    border: 1px ;
     position: relative; 
     left: 80px;
-    top: 2px;
+    margin-top: -50px;
 
 }
 .box ul li {
-    width: 120px;
+    width: 100px;
     float: left;
-    margin: 10px auto;
     text-align: center;
+    top: 0;
 }
 
 .box ul li a{
@@ -131,7 +131,7 @@ ul{
     justify-content: space-evenly;
     flex-direction: column;
     padding-top: 20px;
-    float: right;
+    flex-direction: row;
     background-color: rgb(229,229,229);
     background-size: 30px;
 
@@ -139,6 +139,12 @@ ul{
 }
 .foodA .details{
     float: right;
+}
+.foodB{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+
 }
 .foodB .details{
     float: right;
